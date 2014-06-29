@@ -37,6 +37,6 @@ Example Entry: `192.168.56.101 gdg-hack.dev www.gdg-hack.dev`
 ### Verify installation
 To verify that everything is OK:
 - Open your browser
-- Check (http://gdg-hack.dev/hello\_php.php)[http://gdg-hack.dev/hello_php.php]
-- Check (http://gdg-hack.dev/hello\_hack.php)[http://gdg-hack.dev/hello_hack.php]
+- Check `http://gdg-hack.dev/hello_php.php`
+- Check `http://gdg-hack.dev/hello_hack.php`
 - You should see hello message.
