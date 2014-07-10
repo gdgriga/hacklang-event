@@ -51,7 +51,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'hhvm/vim-hack'
-Plugin 'tomasr/molokai'
+Plugin 'php.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -155,7 +155,7 @@ set foldcolumn=1
 syntax enable
 
 try
-    colorscheme molokai
+    colorscheme desert
 catch
 endtry
 
