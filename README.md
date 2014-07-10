@@ -1,13 +1,13 @@
 # GDG-Riga Hacklang Event
 
 ## Install
-There is a Vagrant VM image in repo. Thank [puphpet](https://puphpet.com/) for awesome tool.
+We have included a Vagrant VM image in the repo. Thank [puphpet](https://puphpet.com/) for an awesome tool.
 
-Must-have software:
+To start installing and configuring the environment please setup:
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](http://www.vagrantup.com/downloads.html) >= 1.6
 
-When you have VirtualBox & Vagrant installed, simply:
+When you have VirtualBox & Vagrant installed, simply run the following script:
 ```shell
 $ cd ~/my_workspace
 $ git clone https://github.com/gdgriga/hacklang-event.git
