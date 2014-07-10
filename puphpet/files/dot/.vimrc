@@ -40,7 +40,21 @@ set rtp+=$GOROOT/misc/vim
 "    -> Helper functions
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'hhvm/vim-hack'
+Plugin 'tomasr/molokai'
+
+call vundle#end()
+filetype plugin indent on
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -76,6 +90,9 @@ set so=7
 
 " Turn on the WiLd menu
 set wildmenu
+
+" Show line numbers
+set number
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
@@ -138,7 +155,7 @@ set foldcolumn=1
 syntax enable
 
 try
-    colorscheme desert
+    colorscheme molokai
 catch
 endtry
 
